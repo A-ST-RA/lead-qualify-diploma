@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
 # Загружаем данные
-df = pd.read_csv("leads_big.csv")
+df = pd.read_csv("leads.csv")
 
 # Выбираем признаки
 features = [
@@ -26,13 +26,8 @@ X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
     test_size=0.25,
-    random_state=42,
-    stratify=y
+    random_state=42
 )
-
-# Обучаем модель логистической регрессии
-log_model = LogisticRegression(max_iter=1000)
-log_model.fit(X_train, y_train)
 
 forest_model = RandomForestClassifier(
     n_estimators=100,
@@ -40,11 +35,14 @@ forest_model = RandomForestClassifier(
 )
 forest_model.fit(X_train, y_train)
 
-log_predictions = log_model.predict(X_test)
-log_probabilities = log_model.predict_proba(X_test)[:, 1]
-
 forest_predictions = forest_model.predict(X_test)
 forest_probabilities = forest_model.predict_proba(X_test)[:, 1]
+
+print("\nRandom Forest predictions:")
+print(forest_predictions)
+
+print("\nRandom Forest probabilities:")
+print(forest_probabilities)
 
 new_leads = pd.DataFrame([
     {
@@ -76,41 +74,11 @@ new_leads = pd.DataFrame([
     },
 ])
 
-new_predictions = log_model.predict(new_leads)
-new_probabilities = log_model.predict_proba(new_leads)[:, 1]
+forest_new_predictions = forest_model.predict(new_leads)
+forest_new_probabilities = forest_model.predict_proba(new_leads)[:, 1]
 
-print("\nNew leads:")
-print(new_leads)
+print("\nRandom Forest new lead predictions:")
+print(forest_new_predictions)
 
-print("\nNew lead predictions:")
-print(new_predictions)
-
-print("\nNew lead probabilities:")
-print(new_probabilities)
-
-from sklearn.metrics import (
-    accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    roc_auc_score,
-    confusion_matrix,
-)
-
-models = {
-    "LogisticRegression": log_model,
-    "RandomForest": forest_model,
-}
-
-for name, model in models.items():
-    preds = model.predict(X_test)
-    probs = model.predict_proba(X_test)[:, 1]
-
-    print(f"\n=== {name} ===")
-    print("Accuracy:", accuracy_score(y_test, preds))
-    print("Precision:", precision_score(y_test, preds))
-    print("Recall:", recall_score(y_test, preds))
-    print("F1:", f1_score(y_test, preds))
-    print("ROC-AUC:", roc_auc_score(y_test, probs))
-    print("Confusion matrix:")
-    print(confusion_matrix(y_test, preds))
+print("\nRandom Forest new lead probabilities:")
+print(forest_new_probabilities)
