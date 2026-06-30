@@ -1,0 +1,7 @@
+yarn run v1.22.22
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ vite --host 127.0.0.1 --port 5173
+
+  VITE v6.4.2  ready in 152 ms
+
+  ➜  Local:   http://127.0.0.1:5173/

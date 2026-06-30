@@ -1,0 +1,240 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2C
+            - text: · IT-продукты
+        - generic:
+          - strong: "01"
+          - text: / 04
+      - generic:
+        - generic: Знакомство
+        - heading "V2C — стартап разработки IT-продуктов" [level=1]:
+          - text: V2C — стартап
+          - text: разработки IT-продуктов
+        - paragraph: "Мы создаём программные решения для бизнеса: от ML-систем до интеграций с CRM. Помогаем компаниям принимать решения на основе данных, а не интуиции."
+        - generic:
+          - generic:
+            - generic: ⚡
+            - heading "Быстрый старт" [level=3]
+            - paragraph: Запускаем MVP за недели, а не месяцы. Работаем итерациями.
+          - generic:
+            - generic: 🧠
+            - heading "Data-driven подход" [level=3]
+            - paragraph: Каждое решение подкреплено данными и метриками.
+          - generic:
+            - generic: 🔌
+            - heading "Интеграции" [level=3]
+            - paragraph: Легко встраиваемся в существующую инфраструктуру и CRM.
+        - generic:
+          - generic:
+            - generic: Продукт
+            - generic: Lead Qualify
+          - generic:
+            - generic: Технологии
+            - generic: ML · FastAPI · React
+          - generic:
+            - generic: Запуск
+            - generic: "2026"
+      - generic:
+        - generic: v2c.io
+        - generic: Lead Qualify — клиентская презентация
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2C
+            - text: · Проблема
+        - generic:
+          - strong: "02"
+          - text: / 04
+      - generic:
+        - generic:
+          - generic:
+            - generic: Ситуация сегодня
+            - heading "Заявки без приоритета" [level=2]
+            - paragraph: Менеджеры берут заявки из CRM по мере их поступления. Каждую обзванивают подряд. Никакой умной сортировки — только хронология.
+            - generic:
+              - generic:
+                - paragraph:
+                  - strong: Тратят часы на «мусорные» заявки
+                  - text: — случайные клики, нерелевантные лиды, нецелевой бюджет.
+              - generic:
+                - paragraph:
+                  - strong: Перспективные лиды ждут
+                  - text: — горячий клиент остывает, пока менеджер доделывает предыдущий звонок.
+              - generic:
+                - paragraph:
+                  - strong: Нет данных для решений
+                  - text: — непонятно, какой лид стоит внимания в первую очередь.
+          - generic:
+            - generic:
+              - generic:
+                - document:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 1
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 2
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 3
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: CRM
+                                  - text: список заявок
+                                  - text: по порядку
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Заявка A
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Заявка B
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Заявка C
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Заявка D
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Заявка E
+              - generic: "Сейчас: заявки разбираются «как пришли»"
+      - generic:
+        - generic: v2c.io · Проблема
+        - generic: 02 / 04
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2C
+            - text: · Решение
+        - generic:
+          - strong: "03"
+          - text: / 04
+      - generic:
+        - generic: Наше решение
+        - heading "ИИ-система квалификации лидов" [level=2]
+        - paragraph: Lead Qualify — это ML-модель, обученная на вашей истории продаж. Она анализирует признаки лида и выдаёт вероятность успешной сделки.
+        - generic:
+          - generic:
+            - generic: ШАГ 01
+            - heading "Обучаем модель" [level=4]
+            - paragraph: Загружаем историю лидов и результаты сделок. Random Forest учится находить паттерны успешных клиентов.
+          - generic:
+            - generic: ШАГ 02
+            - heading "Анализируем признаки" [level=4]
+            - paragraph: Смотрим на источник, поведение на сайте, бюджет, размер компании, отрасль. Каждый фактор важен.
+          - generic:
+            - generic: ШАГ 03
+            - heading "Прогнозируем" [level=4]
+            - paragraph: Для каждого нового лида модель выдаёт probability — вероятность закрытия сделки от 0 до 1.
+          - generic:
+            - generic: ШАГ 04
+            - heading "Ранжируем в CRM" [level=4]
+            - paragraph: Самые перспективные лиды поднимаются наверх, слабые — уходят вниз. Менеджер видит, с кого начать.
+      - generic:
+        - generic: v2c.io · Решение
+        - generic: 03 / 04
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: V2
+          - generic [ref=e54]:
+            - strong [ref=e55]: V2C
+            - text: · На практике
+        - generic [ref=e56]:
+          - strong [ref=e57]: "04"
+          - text: / 04
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: Как это работает
+          - heading "Умная сортировка заявок" [level=2] [ref=e62]:
+            - text: Умная сортировка
+            - text: заявок
+          - paragraph [ref=e63]: Менеджеры работают в той же CRM. Не нужно менять привычки — за них это делает ИИ.
+          - generic [ref=e64]:
+            - paragraph [ref=e67]:
+              - strong [ref=e68]: Сверху — горячие лиды
+              - text: с высокой вероятностью сделки. Их обзванивают первыми.
+            - paragraph [ref=e71]:
+              - strong [ref=e72]: Середина — перспективные
+              - text: ", но требующие прогрева. Им уделяют внимание после горячих."
+            - paragraph [ref=e75]:
+              - strong [ref=e76]: Снизу — слабые лиды
+              - text: . Тратят минимум времени или передаются на автоворонку.
+        - generic [ref=e78]:
+          - document [ref=e80]:
+            - generic [ref=e82]:
+              - generic [ref=e93]:
+                - generic [ref=e97]: берёт топ
+                - generic [ref=e101]: берёт топ
+                - generic [ref=e105]: берёт топ
+                - generic [ref=e109]: predict
+                - generic [ref=e113]: 1-й
+                - generic [ref=e117]: 2-й
+                - generic [ref=e121]: 3-й
+              - generic [ref=e122]:
+                - generic [ref=e127]: 👤 Менеджер 1
+                - generic [ref=e132]: 👤 Менеджер 2
+                - generic [ref=e137]: 👤 Менеджер 3
+                - generic [ref=e143]:
+                  - text: CRM
+                  - text: сортировка по AI
+                - generic [ref=e149]:
+                  - text: 🧠 ML-модель
+                  - text: Lead Qualify
+                - generic [ref=e155]:
+                  - text: 🔥 Горячий
+                  - text: score 0.87
+                - generic [ref=e161]:
+                  - text: ⚡ Тёплый
+                  - text: score 0.62
+                - generic [ref=e167]:
+                  - text: ❄️ Холодный
+                  - text: score 0.21
+          - generic [ref=e168]: "С Lead Qualify: сначала — самые перспективные"
+      - generic [ref=e169]:
+        - generic [ref=e170]: v2c.io · На практике
+        - generic [ref=e171]: 04 / 04
+  - generic [ref=e42]:
+    - button "Назад" [ref=e43] [cursor=pointer]: ←
+    - generic [ref=e44]:
+      - button "Слайд 1" [ref=e45] [cursor=pointer]
+      - button "Слайд 2" [ref=e46] [cursor=pointer]
+      - button "Слайд 3" [ref=e47] [cursor=pointer]
+      - button "Слайд 4" [ref=e48] [cursor=pointer]
+    - button "Вперёд" [disabled] [ref=e49]: →

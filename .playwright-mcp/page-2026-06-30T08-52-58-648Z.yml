@@ -1,0 +1,274 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2S
+            - text: · IT-продукты
+        - generic:
+          - strong: "01"
+          - text: / 05
+      - generic:
+        - generic: Знакомство
+        - heading "V2S — стартап разработки IT-продуктов" [level=1]:
+          - text: V2S — стартап
+          - text: разработки IT-продуктов
+        - paragraph: "Мы создаём программные решения для бизнеса: от ML-систем до интеграций с CRM. Помогаем компаниям принимать решения на основе данных, а не интуиции."
+        - generic:
+          - generic:
+            - generic: ⚡
+            - heading "Быстрый старт" [level=3]
+            - paragraph: Запускаем MVP за недели, а не месяцы. Работаем итерациями.
+          - generic:
+            - generic: 🧠
+            - heading "Data-driven подход" [level=3]
+            - paragraph: Каждое решение подкреплено данными и метриками.
+          - generic:
+            - generic: 🔌
+            - heading "Интеграции" [level=3]
+            - paragraph: Легко встраиваемся в существующую инфраструктуру и CRM.
+        - generic:
+          - generic:
+            - generic: Продукт
+            - generic: Лид Мастер
+          - generic:
+            - generic: Технологии
+            - generic: ML · FastAPI · React
+          - generic:
+            - generic: Запуск
+            - generic: "2026"
+      - generic:
+        - generic: v2s.io
+        - generic: Лид Мастер — клиентская презентация
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: V2
+          - generic [ref=e55]:
+            - strong [ref=e56]: V2S
+            - text: · Ситуация сегодня
+        - generic [ref=e57]:
+          - strong [ref=e58]: "02"
+          - text: / 05
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: Ситуация сегодня
+          - heading "Заявки без приоритета" [level=2] [ref=e62]
+          - paragraph [ref=e63]: Менеджеры берут заявки из CRM по мере их поступления. Каждую обзванивают подряд. Никакой умной сортировки — только хронология.
+        - generic [ref=e64]:
+          - document [ref=e66]:
+            - generic [ref=e68]:
+              - generic [ref=e76]:
+                - generic [ref=e80]: берёт
+                - generic [ref=e84]: берёт
+                - generic [ref=e88]: берёт
+              - generic [ref=e89]:
+                - generic [ref=e94]: 👤 Менеджер 1
+                - generic [ref=e99]: 👤 Менеджер 2
+                - generic [ref=e104]: 👤 Менеджер 3
+                - generic [ref=e110]:
+                  - text: CRM
+                  - text: список заявок
+                  - text: по порядку
+                - generic [ref=e115]: Заявка A
+                - generic [ref=e120]: Заявка B
+                - generic [ref=e125]: Заявка C
+                - generic [ref=e130]: Заявка D
+                - generic [ref=e135]: Заявка E
+          - generic [ref=e136]: "Сейчас: заявки разбираются «как пришли»"
+      - generic [ref=e137]:
+        - generic [ref=e138]: v2s.io · Ситуация сегодня
+        - generic [ref=e139]: 02 / 05
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2S
+            - text: · К чему это приводит
+        - generic:
+          - strong: "03"
+          - text: / 05
+      - generic:
+        - generic: К чему это приводит
+        - heading "Проблемы без приоритизации" [level=2]
+        - paragraph: Когда CRM — это просто список по порядку, у менеджеров нет ориентира. Все заявки выглядят одинаково — и драгоценное время утекает впустую.
+        - generic:
+          - generic:
+            - generic: 01 / ПРОБЛЕМА
+            - heading "Часы уходят на «мусор»" [level=4]
+            - paragraph: Случайные клики, нерелевантные лиды и нецелевой бюджет отнимают время, которое можно было потратить на реальных клиентов.
+          - generic:
+            - generic: 02 / ПРОБЛЕМА
+            - heading "Горячие лиды остывают" [level=4]
+            - paragraph: Перспективный клиент ждёт в очереди и теряет интерес, пока менеджер доделывает предыдущий звонок. Деньги уходят к конкурентам.
+          - generic:
+            - generic: 03 / ПРОБЛЕМА
+            - heading "Решения вслепую" [level=4]
+            - paragraph: Непонятно, какой лид стоит внимания в первую очередь. Приоритет ставится интуитивно, а не на основе данных.
+      - generic:
+        - generic: v2s.io · Проблемы
+        - generic: 03 / 05
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2S
+            - text: · Решение
+        - generic:
+          - strong: "04"
+          - text: / 05
+      - generic:
+        - generic: Наше решение
+        - heading "ИИ-система квалификации лидов" [level=2]
+        - paragraph: Лид Мастер — это ML-модель, обученная на вашей истории продаж. Она анализирует признаки лида и выдаёт вероятность успешной сделки.
+        - generic:
+          - generic:
+            - generic: ШАГ 01
+            - heading "Обучаем модель" [level=4]
+            - paragraph: Загружаем историю лидов и результаты сделок. Random Forest учится находить паттерны успешных клиентов.
+          - generic:
+            - generic: ШАГ 02
+            - heading "Анализируем признаки" [level=4]
+            - paragraph: Смотрим на источник, поведение на сайте, бюджет, размер компании, отрасль. Каждый фактор важен.
+          - generic:
+            - generic: ШАГ 03
+            - heading "Прогнозируем" [level=4]
+            - paragraph: Для каждого нового лида модель выдаёт probability — вероятность закрытия сделки от 0 до 1.
+          - generic:
+            - generic: ШАГ 04
+            - heading "Ранжируем в CRM" [level=4]
+            - paragraph: Самые перспективные лиды поднимаются наверх, слабые — уходят вниз. Менеджер видит, с кого начать.
+      - generic:
+        - generic: v2s.io · Решение
+        - generic: 04 / 05
+    - generic:
+      - generic:
+        - generic:
+          - generic: V2
+          - generic:
+            - strong: V2S
+            - text: · На практике
+        - generic:
+          - strong: "05"
+          - text: / 05
+      - generic:
+        - generic:
+          - generic:
+            - generic: Как это работает
+            - heading "Умная сортировка заявок" [level=2]:
+              - text: Умная сортировка
+              - text: заявок
+            - paragraph: Менеджеры работают в той же CRM. Не нужно менять привычки — за них это делает ИИ.
+            - generic:
+              - generic:
+                - paragraph:
+                  - strong: Сверху — горячие лиды
+                  - text: с высокой вероятностью сделки. Их обзванивают первыми.
+              - generic:
+                - paragraph:
+                  - strong: Середина — перспективные
+                  - text: ", но требующие прогрева. Им уделяют внимание после горячих."
+              - generic:
+                - paragraph:
+                  - strong: Снизу — слабые лиды
+                  - text: . Тратят минимум времени или передаются на автоворонку.
+          - generic:
+            - generic:
+              - generic:
+                - document:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт топ
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт топ
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: берёт топ
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: predict
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 1-й
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 2-й
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 3-й
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 1
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 2
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 👤 Менеджер 3
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: CRM
+                                  - text: сортировка по AI
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: 🧠 ML-модель
+                                  - text: Лид Мастер
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: 🔥 Горячий
+                                  - text: score 0.87
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: ⚡ Тёплый
+                                  - text: score 0.62
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: ❄️ Холодный
+                                  - text: score 0.21
+              - generic: "С Лид Мастер: сначала — самые перспективные"
+      - generic:
+        - generic: v2s.io · На практике
+        - generic: 05 / 05
+  - generic [ref=e42]:
+    - button "Назад" [ref=e43] [cursor=pointer]: ←
+    - generic [ref=e44]:
+      - button "Слайд 1" [ref=e45] [cursor=pointer]
+      - button "Слайд 2" [active] [ref=e46] [cursor=pointer]
+      - button "Слайд 3" [ref=e47] [cursor=pointer]
+      - button "Слайд 4" [ref=e48] [cursor=pointer]
+      - button "Слайд 5" [ref=e49] [cursor=pointer]
+    - button "Вперёд" [ref=e50] [cursor=pointer]: →
